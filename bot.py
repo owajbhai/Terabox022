@@ -22,7 +22,7 @@ def handle_link(update: Update, context: CallbackContext):
         return
 
     text = update.message.text
-    if "terafileshare.com" in text or "1024tera.com" in text:
+    if any(domain in text for domain in ["terafileshare.com", "www.terafileshare.com", "1024tera.com"]):
         update.message.reply_text("Link process kiya ja raha hai... thoda ruk jao.")
         video_url = get_terabox_video_url(text, APIFY_TOKEN)
         if video_url:
