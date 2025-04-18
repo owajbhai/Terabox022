@@ -67,7 +67,7 @@ def index():
 # Flask run for Koyeb
 if __name__ == "__main__":
     # Bot webhook set karo (one-time, or move to setup script)
-    webhook_url = f"https://<your-koyeb-app-name>.koyeb.app/{BOT_TOKEN}"
+    webhook_url = f"https://corporate-tommi-botbhaisona-f667374c.koyeb.app/{BOT_TOKEN}"
     bot.set_webhook(webhook_url)
 
     app.run(host="0.0.0.0", port=8000)
