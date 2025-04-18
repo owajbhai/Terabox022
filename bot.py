@@ -3,8 +3,8 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 import requests
 
 # === CONFIG ===
-BOT_TOKEN = "YOUR_BOT_TOKEN"
-APIFY_TOKEN = "YOUR_APIFY_TOKEN"
+BOT_TOKEN = "8064037408:AAHsfyG0jCJ1fOjW9SNuPGqrgvCQPQtANGI"
+APIFY_TOKEN = "apify_api_qdxMztR4cuxXj00ohSMTpZjWbYM3IM2cQEtP"
 
 # Start command
 def start(update: Update, context: CallbackContext):
